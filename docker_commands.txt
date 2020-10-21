@@ -1,0 +1,13 @@
+Docker commands:
+
+1) service docker status
+2) service docker stop
+3) service docker start
+4) docker start containername
+5) docker stop containername
+6) docker run -it --name containername imagename /bin/bash (Command create and run container with name containername from image imagename)
+7) exit (to get out of container)
+8) docker ps (running containers)
+9) docker ps -a (all containers)
+10) docker attach containername (To get inside into container after starting)
+11) docker commit containername imagename (to create image from container)
